@@ -39,11 +39,11 @@ function App() {
 
   return (
     <div className="App">
-      <div className="App">
+      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
          </header>
-    </div>
+    
       <Routes>
         <Route path='/' element={<Home handleSubmit={handleSubmit} handleChange={handleChange} />} />
         <Route path='/people' element={<Person apiResponse={apiResponse} />} />

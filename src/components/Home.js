@@ -4,7 +4,7 @@ import axios from 'axios';
 const Home = (props) => {
 
   return (
-    <div>
+    <div className='box'>
      
       <form onSubmit={props.handleSubmit}>
         <label htmlFor="search">Search People:</label>
